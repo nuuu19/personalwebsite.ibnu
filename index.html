@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Saya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="toggle-container">
+    <button id="toggleDarkMode">🌙 Dark Mode</button>
+  </div>
+
+  <header data-aos="fade-down">
+    <img src="images/profile.jpg" alt="Foto Profil" class="profile-img" />
+    <h1>IBNU ROMADHONI</h1>
+    <p>Web Developer | Gamer | Freelancer</p>
+    <a href="cv/ibnuromadhoni-cv.pdf" class="download-btn" download>📄 Download CV</a>
+  </header>
+
+  <section class="about" data-aos="fade-up">
+    <h2>Tentang Saya</h2>
+    <p>
+      Selamat datang di Web ini, disini saya akan memperkenalkan diri dan sedikit menunjukan portofolio saya.
+      Dan jika kalian ada pertanyaan ataupun tawaran pekerjaan , bisa langsung kirimkan pesan yang ada dibawah.
+      Sekian Terimakasih
+    </p>
+  </section>
+
+  <section class="skills" data-aos="fade-up">
+    <section class="portfolio" data-aos="fade-up">
+  <h2>Proyek Saya</h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-item">
+      <img src="images/project1.jpg" alt="Proyek 1">
+      <h3>Hasil Pertandingan Saya</h3>
+      <p>Ini adalah match saya ketika turnamen Mobile Legends dan saya mendapatkan MVP </Legend>.</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="images/project2.jpg" alt="Proyek 2">
+      <h3>Hasil Pertandingan yang Kedua</h3>
+      <p>Di game kedua ini saya berhasil mendapatkan MVP lagi.</p>
+    </div>
+  </div>
+</section>
+<section class="testimonials" data-aos="fade-up">
+  <h2>Testimoni</h2>
+  <div class="testimonial-list">
+    <div class="testimonial-item">
+      <p>"Ibnu sangat profesional dan cepat menyelesaikan pekerjaan saya. Hasilnya di atas ekspektasi!"</p>
+      <h4>– Suhendri, Klien Joki Game</h4>
+    </div>
+    <div class="testimonial-item">
+      <p>"Prosesnya sangat cepat dan memuaskan."</p>
+      <h4>– Adit, Klien joki game</h4>
+    </div>
+    <div class="testimonial-item">
+      <p>"Dikerjakan dengan cepat dan harga yang terjangkau."</p>
+      <h4>– Evan, Klien joki game</h4>
+    </div>
+  </div>
+</section>
+
+
+  <section class="contact" data-aos="fade-up">
+    <h2>Kontak</h2>
+ <section class="contact" data-aos="fade-up">
+  <h2>Kontak</h2>
+  <form id="contactForm" action="https://formspree.io/f/myzjgajp" method="POST">
+    <input type="text" name="nama" placeholder="Nama Anda" required />
+    <span class="error-message" id="error-nama"></span>
+
+    <input type="email" name="email" placeholder="Email Anda" required />
+    <span class="error-message" id="error-email"></span>
+
+    <textarea name="pesan" placeholder="Pesan Anda" required></textarea>
+    <span class="error-message" id="error-pesan"></span>
+
+    <button type="submit">Kirim</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Ibnu Romadhoni. Semua hak dilindungi.</p>
+</footer>
+
+
+<button id="scrollToTopBtn" title="Kembali ke Atas">⬆️</button>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
